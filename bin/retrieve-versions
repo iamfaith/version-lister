@@ -4,4 +4,6 @@ cd "$(dirname "$0")"/..
 
 rm -f -r generated/*
 
-find src/ -name "*.php" -print0 | xargs -0 -I {} -n1 -- bin/retrieve-version "{}"
+for FILE in src/**/*.php; do
+    bin/retrieve-version "${FILE}"
+done
