@@ -1,0 +1,3 @@
+GITEA_RELEASE="https://github.com/go-gitea/gitea/releases/download/v1.7.2/gitea-1.7.2-linux-amd64"
+GITEA_SOURCE="https://github.com/go-gitea/gitea/archive/v1.7.2.tar.gz"
+GITEA_VERSION="1.7.2"

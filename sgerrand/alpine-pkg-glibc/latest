@@ -1,0 +1,3 @@
+GLIBC_PACKAGE="https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.29-r0/glibc-2.29-r0.apk"
+GLIBC_REPOSITORY_KEY="https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub"
+GLIBC_VERSION="2.29-r0"
